@@ -2,7 +2,6 @@
 
 Menu driven Linked list in C with structure and pointers and allocating memory dynamically in Heap.
 
----
 ## Headers
 ```C
 #include <stdio.h>
@@ -100,7 +99,7 @@ struct node *createll(struct node *start){
     return start;
 };
 ```
-- function ***createll()*** is of type pointer that points to structure node as we are returning ***start*** which is a pointer
+- function ***createll()*** is of type <ins>pointer that points to structure node</ins> as we are returning ***start*** which is a pointer
 - pass parameter pointer ***start*** into this function
 - integer ***num*** stores the number to be added to linked list
 - create two pointers ***newnode*** and ***ptr*** that can point to address of structure node
@@ -128,7 +127,7 @@ struct node *createll(struct node *start){
 ```
 
 ---
-TO DO:
+<ins>TO DO:</ins>
 - [x] Write createll()
 - [ ] Write displayll()
 - [ ] Write insertbegin()
