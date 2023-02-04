@@ -26,7 +26,7 @@ struct node *start = NULL;
 - integer ***count*** will be used to keep track of the number of nodes in the linked list. it is initialized as ***0***
 - ***struct node*** has an integer called ***data*** and a pointer named ***next*** that points to a node
 - initialize a pointer called ***start*** that points to a node as having value ***NULL***
-![](resources/structnode.png)
+![](resources/structnode2.png)
 ---
 
 ## main function
