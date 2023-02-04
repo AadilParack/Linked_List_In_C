@@ -4,7 +4,7 @@ Menu driven Linked list in C with structure and pointers and allocating memory d
 
 ---
 ## Headers
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
@@ -13,7 +13,7 @@ Menu driven Linked list in C with structure and pointers and allocating memory d
 
 ---
 ## Structure and global variable
-```
+```c
 int count=0;
 
 struct node{
@@ -30,7 +30,7 @@ struct node *start = NULL;
 ---
 
 ## main function
-```
+```c
 int main(void){
 
     start=createll(start);
@@ -71,7 +71,7 @@ int main(void){
 ---
 ## Functions
 ### 1. createll()
-```
+```c
 struct node *createll(struct node *start){
 
     int num;
