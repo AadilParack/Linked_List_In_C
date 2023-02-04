@@ -120,6 +120,8 @@ struct node *createll(struct node *start){
 
 ![](resources/createll.png)
 
+<img src="resources/createllpt2.png" width=1000>
+
 ### 2. displayll()
 ```
 //code here
