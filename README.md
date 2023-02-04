@@ -118,6 +118,7 @@ struct node *createll(struct node *start){
 - take input from user and assign it to ***num*** to add the next number to the list for the next iteration. additionally, if num is -1 then the while loop will be broken out of.
 - return the value of the pointer ***start*** which points to the starting address of the linked list
 
+![](resources/createll.png)
 
 ### 2. displayll()
 ```
